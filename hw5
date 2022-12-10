@@ -1,0 +1,86 @@
+#include <iostream>
+#include <windows.h>
+#include <format>
+
+using namespace std;
+
+int main() {
+	/*/
+	cout << "#1\n";
+	const int a=10;
+	int arr[a];
+	int max;
+	int min;
+	for (int i = 0; i < a; i++) {
+		arr[i] = rand() % 10;
+		cout << arr[i]<<" ";
+	}
+	cout << "\n";
+	max = arr[0];
+	min = arr[0];
+	for (int i = 1; i < a; i++) {
+		if (arr[i] > max) {
+			max = arr[i];
+		}
+		if (arr[i] < min) {
+			min = arr[i];
+		}
+	}
+	cout << "min= " << min << "\n" << "max= " << max;
+	*/
+	/*
+	cout << "#2\n";
+	const int a = 15;
+	int arr[a];
+	int sum=0;
+	int g, h, counter;
+	cout << "enter 1 number \n";
+	cin >> g;
+	cout << "enter 2 number \n";
+	cin >> h;
+	cin >> counter;
+	for (int i = 0; i < a; i++) {
+		arr[i] = rand() % 10;
+		cout << arr[i] << " ";
+	}
+	for (int i = 0; i < a; i++) {
+		if (arr[i] < counter) {
+			sum = sum + arr[i];
+		}
+	}
+	cout <<"sum= "<< sum;
+	*/
+	/*
+	cout << "#3\n";
+	const int a = 12;
+	int arr[a];
+	int e, r, min, max;
+	for (int i = 0; i < a; i++)
+	{
+		cout << "Enter earning in  " << i + 1;
+		cout << " month- ";
+		cin >> arr[i];
+	}
+	cout << "Enter profit months "<<"\n";
+	cin >> e;
+	cin >> r;
+	min = e - 1;
+	max = e - 1;
+	for (int i = e; i <= r - 1; i++)
+	{
+		if (arr[i] > arr[max])
+		{
+			max = i;
+		}
+		if (arr[i] < arr[min])
+		{
+			min = i;
+		}
+	}
+		cout << "min profit in "
+		<< min + 1 << " month\n";
+	cout << "max prfit in "
+		<< max + 1 << " month\n";
+	*/
+	return 0;
+}
